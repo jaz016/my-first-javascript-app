@@ -49,10 +49,6 @@ main {
     position: relative;
 }
 
-#trigger.pressed {
-    background: #000;
-}
-
 #start {
     position: absolute;
     top: 0;
