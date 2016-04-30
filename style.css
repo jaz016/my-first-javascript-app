@@ -23,6 +23,10 @@ header {
     border-bottom: 1px solid #E6E6E6;
 }
 
+button:focus {
+    outline: 0;
+}
+
 main {
 	width: 940px;
     margin: 0 auto;
@@ -43,6 +47,10 @@ main {
     padding: .8em 1.5em;
     border-radius: 9px;
     position: relative;
+}
+
+#trigger.pressed {
+    background: #000;
 }
 
 #start {
