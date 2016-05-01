@@ -23,6 +23,10 @@ header {
     border-bottom: 1px solid #E6E6E6;
 }
 
+button:focus {
+    outline: 0;
+}
+
 main {
 	width: 940px;
     margin: 0 auto;
@@ -55,12 +59,10 @@ main {
 }
 
 #clicks {
-	display: none;
 	margin: 2em 0;
 }
 
 #timer-area {
-	display: none;
 	text-align: left;
     padding-top: 2em;
     border-top: 1px solid #E6E6E6;
@@ -85,5 +87,9 @@ main {
     top: 5px;
     left: 1em;
     color: #fff;
+}
+
+.hide {
+    display: none;
 }
 
