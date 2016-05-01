@@ -14,3 +14,9 @@ version 1.5
 
 *reset game possible
 *changing button color when triggered
+
+---
+version 1.5.2
+
+*hides details when game finishes
+*optimized code
